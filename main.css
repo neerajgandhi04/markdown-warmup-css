@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     padding: 5px;
     width: 90%;
@@ -15,7 +16,7 @@ body {
 header {
     background-image: url("bg.jpg");
     background-size: cover;
-    width:  100%;
+    width: 100%;
     height: 600px;
     text-align: center;
 
@@ -43,6 +44,8 @@ header h3 {
 
 img {
     width: 100%;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .col30 h3 {
@@ -93,16 +96,23 @@ footer a {
     color: white;
 }
 
-@media (max-width: 800px){
+footer a:hover {
+    color: #C4C447;
+}
+
+@media (max-width: 800px) {
     .flex-ctn {
         flex-direction: column;
     }
+
     .col30, .col70 {
         flex: 500px;
     }
+
     .foto-ctn {
         text-align: center;
     }
+
     img {
         width: 300px;
     }
