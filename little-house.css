@@ -73,6 +73,18 @@ tr:nth-child(even) {
     padding: 20px;
 }
 
+.col70 .foto-ctn2 {
+    padding-top: 45px;
+}
+
+.backbtn {
+    text-align: right;
+}
+
+.backbtn a:hover {
+    color: #C4C447;
+}
+
 h2 {
     padding: 10px;
     background: #ABAB3E;
